@@ -15,3 +15,8 @@ c. Masukin ke GitHub
 Login ke GitHub
 Settings → SSH and GPG keys → New SSH key
 Paste key tadi
+
+login in klo minta login
+C:\Users\wb_ut>git config --global user.email "mcrclaudio08@gmail.com"
+
+C:\Users\wb_ut> git config --global user.name "Utha89\
