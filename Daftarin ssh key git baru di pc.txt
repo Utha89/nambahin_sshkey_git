@@ -1,0 +1,17 @@
+Cara paling umum: pakai SSH (biar gak ribet login terus)
+
+a. Generate SSH key
+
+ssh-keygen -t ed25519 -C "emailkamu@example.com"
+
+Tekan Enter terus aja.
+
+b. Ambil public key
+
+cat ~/.ssh/id_ed25519.pub
+
+c. Masukin ke GitHub
+
+Login ke GitHub
+Settings → SSH and GPG keys → New SSH key
+Paste key tadi
